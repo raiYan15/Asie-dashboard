@@ -1,0 +1,9 @@
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0
+scipy>=1.11
+tqdm>=4.66
+matplotlib>=3.8
+seaborn>=0.13
+fastapi>=0.115
+uvicorn[standard]>=0.30
