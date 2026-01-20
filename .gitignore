@@ -23,6 +23,10 @@ wheels/
 .installed.cfg
 *.egg
 
+# Exclude lib/ only at root level
+/lib/
+/lib64/
+
 # Node
 node_modules/
 npm-debug.log*
