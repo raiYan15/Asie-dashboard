@@ -5,7 +5,7 @@ import { TopBarChart } from './components/TopBarChart'
 import { AnomalyTable } from './components/AnomalyTable'
 import { TimeSeries } from './components/TimeSeries'
 import { InsightStrip } from './components/InsightStrip'
-import { fetchJSON } from './lib/api'
+import { fetchJSON } from './lib/api.js'
 
 const metrics = [
   { key: 'digital_inclusion_index', label: 'Digital Inclusion Index' },
